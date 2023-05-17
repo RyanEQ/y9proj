@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Designs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="image/logo.png">
+
+   <style>
+      @media all and (max-width:779px){
+      img{
+         margin: 30px 0px;
+      }
+   }
+   img{
+      transition: 0.5s;
+   }
+   img:hover{
+      filter: contrast(0.4);
+   }
+   .gotothere{
+            border-radius: 30px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            text-decoration: none;
+            transition: 0.7s;
+        }
+        .oneeee{
+            width: 100%;
+            background-image: url(image/ai1.jpg);
+
+         height:505px;
+         margin-bottom: 5px;
+        }
+        .gotothere h1{
+            opacity: 0;
+            margin-top: 20px;
+            transition: 0.5s;
+            transition-delay: 0.2s;
+        }
+        .gotothere:hover{
+            opacity: 0.5;
+
+        }
+        .gotothere:hover h1{
+            opacity: 1;
+            margin-top: 0;
+        }
+        .twoooo{
+             width: 100%;
+             height: 250px;
+             background-image: url(image/ai2.jpg);
+             margin-bottom: 5px;
+        }
+        .three{
+            width: 100%;
+             height: 250px;
+             background-image: url(image/bi3.jpg);
+             margin-bottom: 5px;
+        }
+        .fourrrrrr{
+            width: 100%;
+             height: 250px;
+             background-image: url(image/ai4.jpg);
+             margin-bottom: 5px;
+        }
+        .fiveeeee{
+            width: 100%;
+             height: 250px;
+             background-image: url(image/ai5.jpg);
+             margin-bottom: 5px;
+        }
+        .sixxxxxx{
+            width: 100%;
+             height: 250px;
+             background-image: url(image/ai6.jpg);
+             margin-bottom: 5px;
+        }
+   </style>
+</head>
+<body>
+   <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn"><i class=" bi-list"></i></label>
+      <label class="logo">Lo<span>Co</span></label>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="browsedesign.html">Designs</a></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+          <li class="search-list">
+              <div class="search-btn">
+                  <input type="text" id="input">
+                  <img src="image/search.svg" class="search" alt="">
+              </div>
+          </li>
+      </ul>
+  </nav>
+   <div class="container-md">
+
+      <div class="row"  style="margin:50px 0px;">
+        <div class="col-md-8">
+            <a href="livingroom.html" class="gotothere oneeee">
+                <h1>Living Room</h1>
+            </a> 
+        </div>
+        <div class="col-md-4 right">
+            <a href="bedroom.html" class="gotothere twoooo">
+                <h1>Bed Room</h1>
+            </a> 
+            <a href="bathroom.html" class="gotothere three">
+                <h1>Bathroom</h1>
+            </a> 
+        </div>
+      </div>
+        <div class="row" style="margin: 50px 0px;">
+            <div class="col-md-4">
+                <a href="kitchen.html" class="gotothere fourrrrrr">
+                    <h1>Kitchen</h1>
+                </a> 
+            </div>
+            <div class="col-md-4">
+                <a href="dining-room.html" class="gotothere fiveeeee">
+                    <h1>Dining Room</h1>
+                </a> 
+            </div>
+            <div class="col-md-4">
+                <a href="Hobby_room.html" class="gotothere sixxxxxx">
+                    <h1>Others</h1>
+                </a> 
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-cont">
+            <div class="footer-left">
+                <h1>LoCo</h1>
+                <br>
+                <h3>Update ur save location to the best.</h3>
+                <br>
+                <br>
+                <div class="gmin">
+                    <img src="image/gmail.png" alt="">
+                    <h2>Loco@gmail.com</h2>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="noov">
+                   <h2>
+                     Quick Access
+                   </h2>
+                   <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="browsedesign.html">Browse Designs</a></li>
+                    <li><a href="contact-us.html"> Contact Us</a></li>
+                   </ul>
+                </div>
+                <div class="nesscee">
+                    <h2>
+                        necessity &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    </h2>
+                    <ul>
+                        <li><a href="Payment.html">Payment Methods</a></li>
+                        <li><a href="tsu.html">Terms of use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cr-right">
+            <h2>Copy-right 2022/2023.<br> Loco/decorating company.</h2>
+        </div>
+    </footer>
+</body>
+</html>
